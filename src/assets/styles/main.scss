@@ -1,5 +1,40 @@
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+html {
+    font-size: 16px;
+}
+
+
 body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    
+}
+ 
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+} 
+
+.title {
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+    line-height: 100%;
+
+    &--light {
+        color: #fff;
+    }
 }

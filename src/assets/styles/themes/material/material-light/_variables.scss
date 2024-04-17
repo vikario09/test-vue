@@ -68,17 +68,17 @@ $actionIconBorderRadius:50% !default;
 //input field (e.g. inputtext, spinner, inputmask)
 $inputPadding:1rem 1rem !default;
 $inputTextFontSize:1rem !default;
-$inputBg:#ffffff !default;
+$inputBg:#F8F8F8 !default;
 $inputTextColor:$emphasis-high !default;
 $inputIconColor:$emphasis-medium !default;
 $inputBorder:1px solid $emphasis-low !default;
 $inputHoverBorderColor:$emphasis-high !default;
-$inputFocusBorderColor:$primaryColor !default;
+$inputFocusBorderColor: rgba(0, 0, 0, 8) !default;
 $inputErrorBorderColor:$errorColor !default;
 $inputPlaceholderTextColor:$emphasis-medium !default;
 $inputFilledBg:#f5f5f5 !default;
-$inputFilledHoverBg:#ececec !default;
-$inputFilledFocusBg:#dcdcdc !default;
+$inputFilledHoverBg: #D0CFCF !default;
+$inputFilledFocusBg: rgba(0, 0, 0, 8) !default;
 
 //input groups
 $inputGroupBg:$inputBg !default;
@@ -120,20 +120,20 @@ $passwordMediumBg:#FBC02D !default;
 $passwordStrongBg:#689F38 !default;
 
 //button
-$buttonPadding:0.714rem 1rem !default;
+$buttonPadding:0.25rem 1.43rem !default;
 $buttonIconOnlyWidth:3rem !default;
 $buttonIconOnlyPadding:0.714rem !default;
 $buttonBg:$primaryColor !default;
 $buttonTextColor:$primaryTextColor !default;
 $buttonBorder:0 none !default;
-$buttonHoverBg:rgba($primaryColor, .92) !default;
+$buttonHoverBg:#FFE302 !default;
 $buttonTextHoverColor:$primaryTextColor !default;
 $buttonHoverBorderColor:transparent !default;
 $buttonActiveBg:rgba($primaryColor, .68) !default;
 $buttonTextActiveColor:$primaryTextColor !default;
 $buttonActiveBorderColor:transparent !default;
 $raisedButtonShadow:0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12) !default;
-$roundedButtonBorderRadius:2rem !default;
+$roundedButtonBorderRadius:5rem !default;
 
 $textButtonHoverBgOpacity:.04 !default;
 $textButtonActiveBgOpacity:.16 !default;
@@ -239,7 +239,7 @@ $checkboxActiveHoverBorderColor:$primaryColor !default;
 //radiobutton
 $radiobuttonWidth:20px !default;
 $radiobuttonHeight:20px !default;
-$radiobuttonBorder:2px solid #757575 !default;
+$radiobuttonBorder:2px solid #D0CFCF !default;
 $radiobuttonIconSize:10px !default;
 $radiobuttonActiveBorderColor:$primaryColor !default;
 $radiobuttonActiveBg:$primaryTextColor !default;
